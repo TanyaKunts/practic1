@@ -1,0 +1,252 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Comic Neue', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: auto;
+    text-align: center;
+    margin-top: 30px 
+}
+div.container{
+    width:80%;
+    border: 1.5px solid black;
+    margin:40px auto;
+    border-radius: 10px;
+    border-collapse: separate;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    padding:5px;
+
+}
+
+#left .card {
+    border: 1px solid rgb(80, 78, 48);
+    border-radius: 5px;
+    width: 100px;
+    padding:5px;
+    margin:3px;
+    height: 230px;
+}
+#left .card h3{
+    margin-top: 30px;
+}
+.card img{
+    width: 100%;
+    height: 50%;
+    border-radius: 3px;
+}
+
+#right{
+    border:1px solid black;
+    width: 50%;
+    padding:5px;
+    margin: 8px 8px 8px 5px;
+    border: 1px solid rgb(80, 78, 48);
+    border-radius: 5px;
+    padding:5px;
+} 
+.mainPrice{
+    width: 100px;
+    height: 50px;
+    background-color: teal;
+}
+div#detalesCard{
+    display: flex;
+    justify-content: space-around;
+}
+
+#detalesCard img{
+    border-radius: 5px;
+    margin-right:15px;
+}
+#detalesCard h2{
+    text-decoration: underline;
+}
+#detalesCard p {
+    font-size: 10pt;
+}
+div.inputs{
+    display:flex;
+    justify-content: space-between;
+}
+#main div.item{
+    border:1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 4px;
+}
+.rightSide input{
+    width:40px;
+    border-radius: 3px;
+    border: 1px solid rgb(12, 29, 25);
+    text-align: center;
+    font-size: 14pt;
+
+}
+.rightSide button#minus,
+.rightSide button#plus{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid rgb(12, 29, 25);
+    background-color: rgb(124, 187, 173);
+    font-size: 16pt;
+    
+}
+.rightSide button#minus:hover,
+.rightSide button#plus:hover{
+    border: 2px solid rgb(12, 29, 25);
+    background-color: rgb(209, 243, 236);
+}
+.rightSide .btns{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 60px 10px;
+}
+.rightSide h4{
+    text-align: center;
+    margin-top: 10px;
+}
+.rightSide h3{
+    text-align: center;
+}
+#mainPrice{
+    background-color: rgb(209, 243, 236);
+    width: 70px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid rgb(12, 29, 25);
+    font-size: 16pt;
+    margin:0 40%;
+}
+button#design{
+    width:90%;
+    height: 45px;
+    margin:20px 5% 0;
+    border-radius: 4px;
+    border: 1px solid rgb(12, 29, 25);
+    background-color: rgb(124, 187, 173);
+    font-size: 14pt;
+    transition: all 0.3s ease-out;
+
+}
+button#design:hover{
+    border: 2px solid rgb(12, 29, 25);
+    background-color: rgb(209, 243, 236);
+
+}
+#decor h2{
+    text-align: center;
+    margin: 15px auto;
+    font-size: 24pt;
+}
+#decor .item img{
+    width: 300px;
+    height:300px;
+    border-radius: 5px;
+}
+#items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#decor .item{
+    border: 1px solid rgb(80, 78, 48);
+    border-radius: 5px;
+    padding:5px;
+    margin:3px;
+}
+#decor .without{
+    width: 300px;
+    margin: 5px 47px;
+}
+#decor p{
+    font-size: 16pt;
+}
+.first-row button{
+    background-color: rgb(209, 243, 236);
+    width: 150px;
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid rgb(12, 29, 25);
+    margin-left:20px;
+    font-size: 24pt;
+    padding:8px;
+}
+#decor .first-row{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+#decor .first-row h3{
+    font-size: 20pt;
+    margin-left: 4%;
+}
+.first-row #delivery2{
+    margin-left:10.5%;
+    width: 300px;
+}
+
+.delivery{
+    display: flex;
+    justify-content: space-evenly;
+}
+.delivery button{
+    background-color: rgb(209, 243, 236);
+    width: 200px;
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid rgb(12, 29, 25);    
+    font-size: 16pt;
+    font-weight: 400;
+ }
+#deliverySection{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 0;
+    font-size: 18pt;
+
+}
+#deliverySection form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:20px;
+}
+#deliverySection form .item{
+    margin: 5px;
+}
+#deliverySection form input{
+    width:260px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid rgb(12, 29, 25);  
+    font-size: 16pt;
+    padding: 5px;
+} 
+button#checkout{
+    width: 30%;
+    margin:10px;
+}
+.pickup{
+    margin: 0 10%;
+}
+button{
+    font-family: 'Comic Neue', cursive;
+}
+#back{
+    margin: 0 2%;
+}
